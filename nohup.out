@@ -1,0 +1,684 @@
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 511 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 582 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 414 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+11:53:57 PM [vite] hmr update /src/components/Header.tsx, /src/index.css
+11:53:57 PM [vite] hmr update /src/components/Header.tsx, /src/index.css
+11:53:57 PM [vite] hmr update /src/index.css
+11:55:24 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:24 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (11:4)
+
+   9 |     element: <Layout />,
+  10 |     errorElement
+> 11 |     children: [
+     |     ^
+  12 |       {
+  13 |         index: true,
+  14 |         element: <Home />,
+11:55:24 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (11:4)
+
+   9 |     element: <Layout />,
+  10 |     errorElement
+> 11 |     children: [
+     |     ^
+  12 |       {
+  13 |         index: true,
+  14 |         element: <Home />,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:11:4
+  9  |      element: <Layout />,
+  10 |      errorElement
+  11 |      children: [
+     |      ^
+  12 |        {
+  13 |          index: true,
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10776:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10693:29)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10630:19)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8978:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10603:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10594:17)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+11:55:27 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:27 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (11:4)
+
+   9 |     element: <Layout />,
+  10 |     errorElement: Erro
+> 11 |     children: [
+     |     ^
+  12 |       {
+  13 |         index: true,
+  14 |         element: <Home />,
+11:55:27 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (11:4)
+
+   9 |     element: <Layout />,
+  10 |     errorElement: Erro
+> 11 |     children: [
+     |     ^
+  12 |       {
+  13 |         index: true,
+  14 |         element: <Home />,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:11:4
+  9  |      element: <Layout />,
+  10 |      errorElement: Erro
+  11 |      children: [
+     |      ^
+  12 |        {
+  13 |          index: true,
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10776:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10693:29)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10630:19)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8978:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10603:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10594:17)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+11:55:28 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:28 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (11:4)
+
+   9 |     element: <Layout />,
+  10 |     errorElement: Error
+> 11 |     children: [
+     |     ^
+  12 |       {
+  13 |         index: true,
+  14 |         element: <Home />,
+11:55:28 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (11:4)
+
+   9 |     element: <Layout />,
+  10 |     errorElement: Error
+> 11 |     children: [
+     |     ^
+  12 |       {
+  13 |         index: true,
+  14 |         element: <Home />,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:11:4
+  9  |      element: <Layout />,
+  10 |      errorElement: Error
+  11 |      children: [
+     |      ^
+  12 |        {
+  13 |          index: true,
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10776:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10693:29)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10630:19)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8978:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10603:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10594:17)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+11:55:29 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:29 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (12:4)
+
+  10 |     element: <Layout />,
+  11 |     errorElement: ErrorPage
+> 12 |     children: [
+     |     ^
+  13 |       {
+  14 |         index: true,
+  15 |         element: <Home />,
+11:55:29 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (12:4)
+
+  10 |     element: <Layout />,
+  11 |     errorElement: ErrorPage
+> 12 |     children: [
+     |     ^
+  13 |       {
+  14 |         index: true,
+  15 |         element: <Home />,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:12:4
+  10 |      element: <Layout />,
+  11 |      errorElement: ErrorPage
+  12 |      children: [
+     |      ^
+  13 |        {
+  14 |          index: true,
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10776:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10693:29)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10630:19)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8978:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10603:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10594:17)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+11:55:34 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:34 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token (12:14)
+
+  10 |     element: <Layout />,
+  11 |     errorElement: <ErrorPage
+> 12 |     children: [
+     |               ^
+  13 |       {
+  14 |         index: true,
+  15 |         element: <Home />,
+11:55:34 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token (12:14)
+
+  10 |     element: <Layout />,
+  11 |     errorElement: <ErrorPage
+> 12 |     children: [
+     |               ^
+  13 |       {
+  14 |         index: true,
+  15 |         element: <Home />,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:12:14
+  10 |      element: <Layout />,
+  11 |      errorElement: <ErrorPage
+  12 |      children: [
+     |                ^
+  13 |        {
+  14 |          index: true,
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6624:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6635:22)
+      at TypeScriptParserMixin.jsxParseAttribute (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6707:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6722:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9667:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6717:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6741:33)
+      at TypeScriptParserMixin.jsxParseElement (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6804:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6816:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9404:39
+      at TypeScriptParserMixin.tryParse (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3608:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9404:18)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseObjectProperty (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11469:83)
+      at TypeScriptParserMixin.parseObjPropValue (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11494:100)
+      at TypeScriptParserMixin.parseObjPropValue (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9373:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11434:17)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11354:21)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+11:55:39 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:39 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (11:30)
+
+   9 |     path: "/",
+  10 |     element: <Layout />,
+> 11 |     errorElement: <ErrorPage/></ErrorPage>
+     |                               ^
+  12 |     children: [
+  13 |       {
+  14 |         index: true,
+11:55:39 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (11:30)
+
+   9 |     path: "/",
+  10 |     element: <Layout />,
+> 11 |     errorElement: <ErrorPage/></ErrorPage>
+     |                               ^
+  12 |     children: [
+  13 |       {
+  14 |         index: true,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:11:30
+  9  |      path: "/",
+  10 |      element: <Layout />,
+  11 |      errorElement: <ErrorPage/></ErrorPage>
+     |                                ^
+  12 |      children: [
+  13 |        {
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6797:18)
+      at TypeScriptParserMixin.jsxParseElement (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6804:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6816:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9404:39
+      at TypeScriptParserMixin.tryParse (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3608:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9404:18)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseObjectProperty (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11469:83)
+      at TypeScriptParserMixin.parseObjPropValue (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11494:100)
+      at TypeScriptParserMixin.parseObjPropValue (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9373:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11434:17)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11354:21)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+11:55:43 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:55:44 PM [vite] Pre-transform error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (12:4)
+
+  10 |     element: <Layout />,
+  11 |     errorElement: <ErrorPage/>
+> 12 |     children: [
+     |     ^
+  13 |       {
+  14 |         index: true,
+  15 |         element: <Home />,
+11:55:44 PM [vite] Internal server error: /home/kroot/projects/food/front/src/router/router.tsx: Unexpected token, expected "," (12:4)
+
+  10 |     element: <Layout />,
+  11 |     errorElement: <ErrorPage/>
+> 12 |     children: [
+     |     ^
+  13 |       {
+  14 |         index: true,
+  15 |         element: <Home />,
+  Plugin: vite:react-babel
+  File: /home/kroot/projects/food/front/src/router/router.tsx:12:4
+  10 |      element: <Layout />,
+  11 |      errorElement: <ErrorPage/>
+  12 |      children: [
+     |      ^
+  13 |        {
+  14 |          index: true,
+      at constructor (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseExprList (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11671:22)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11573:26)
+      at TypeScriptParserMixin.parseArrayLike (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8905:24)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10866:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11936:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseExprListItem (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:11696:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10776:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10693:29)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10630:19)
+      at TypeScriptParserMixin.parseSubscript (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:8978:18)
+      at TypeScriptParserMixin.parseSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10603:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10594:17)
+      at TypeScriptParserMixin.parseUpdate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/kroot/projects/food/front/node_modules/@babel/parser/lib/index.js:10387:23)
+11:55:45 PM [vite] hmr update /src/App.tsx, /src/index.css
+11:58:37 PM [vite] hmr update /src/pages/ErrorPage.tsx, /src/index.css
+11:58:37 PM [vite] Internal server error: Failed to resolve import "../assets/http-404-error-message-information-not-found.jpg" from "src/pages/ErrorPage.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kroot/projects/food/front/src/pages/ErrorPage.tsx:2:16
+  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import img from "../assets/http-404-error-message-information-not-found.jpg";
+     |                   ^
+  18 |  import { Link } from "react-router-dom";
+  19 |  const ErrorPage = () => {
+      at formatError (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:50824:46)
+      at TransformContext.error (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:50818:19)
+      at normalizeUrl (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:66141:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:66296:47
+      at async Promise.all (index 3)
+      at async TransformContext.transform (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:66217:13)
+      at async Object.transform (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:51133:30)
+      at async loadAndTransform (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:53888:29)
+      at async viteTransformMiddleware (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:63759:32)
+11:58:46 PM [vite] hmr update /src/index.css, /src/App.tsx
+11:58:46 PM [vite] Pre-transform error: Failed to resolve import "../assets/" from "src/pages/ErrorPage.tsx". Does the file exist?
+11:58:46 PM [vite] Internal server error: Failed to resolve import "../assets/" from "src/pages/ErrorPage.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kroot/projects/food/front/src/pages/ErrorPage.tsx:2:16
+  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import img from "../assets/";
+     |                   ^
+  18 |  import { Link } from "react-router-dom";
+  19 |  const ErrorPage = () => {
+      at formatError (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:50824:46)
+      at TransformContext.error (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:50818:19)
+      at normalizeUrl (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:66141:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:66296:47
+      at async Promise.all (index 3)
+      at async TransformContext.transform (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:66217:13)
+      at async Object.transform (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:51133:30)
+      at async loadAndTransform (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:53888:29)
+      at async viteTransformMiddleware (file:///home/kroot/projects/food/front/node_modules/vite/dist/node/chunks/dep-DkOS1hkm.js:63759:32)
+11:58:48 PM [vite] hmr update /src/index.css, /src/App.tsx
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 766 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 663 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 404 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 610 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 569 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 545 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 673 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> front@0.0.0 dev
+> vite
+
+
+  VITE v5.2.10  ready in 420 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
